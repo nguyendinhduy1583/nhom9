@@ -19,7 +19,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $sql = "INSERT INTO tables (table_num, seats) VALUES ('$table', '$guests')";
 
         if (mysqli_query($conn, $sql)) {
-            header("location: http://localhost/quynh/component/page.php");
+            header("location: http://localhost/nhom-9/nhom9/component/page.php");
         } else {
             echo "Lỗi: " . mysqli_error($conn);
         }
@@ -119,7 +119,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         }
 
         body {
-            background-image: url(../img/nen22.jpg);
+            background-image: url("https://www.baobaclieu.vn/uploads/image/2024/01/13/image007.jpg");
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center;
@@ -173,8 +173,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 <body>
     <div class="page">
-        <div class="admin"><a href="http://localhost/quynh/component/admin.php">Admin</a></div>
-        <div class="user"><a href="http://localhost/quynh/component/home.php">User</a></div>
+        <div class="admin"><a href="http://localhost/nhom-9/nhom9/component/admin.php">Admin</a></div>
+        <div class="user"><a href="http://localhost/nhom-9/nhom9/component/home.php">User</a></div>
     </div>
     <div class="main">
         <div class="title">
